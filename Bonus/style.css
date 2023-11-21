@@ -17,3 +17,22 @@
 .align-end{
     text-align:end;
 }
+#box {
+    background: black;
+    height: 100%;
+    width: 100%;
+    margin: 500px 0px;
+    -webkit-animation-name: move;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: right;
+    -webkit-animation-timing-function: linear;
+  }
+  @-webkit-keyframes move {
+    0% {   
+        margin-bottom: -800px;
+    }
+    100% {
+        margin-top: -700px;
+    }
+  }
