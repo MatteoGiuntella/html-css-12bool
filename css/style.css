@@ -31,10 +31,21 @@ a{
 .bottom{
     border-bottom: 25px solid white;
 }
-
-
-
-
+.content-start{
+    justify-content: flex-start;
+}
+.content-center{
+    justify-content: center;
+}
+.content-end{
+    justify-content: flex-end;
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
 
 /* main */
 
