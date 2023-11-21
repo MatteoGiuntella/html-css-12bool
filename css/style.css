@@ -25,6 +25,13 @@ a{
 
 /* header */
 
+.green{
+    background-color: green;
+}
+.bottom{
+    border-bottom: 25px solid white;
+}
+
 
 
 

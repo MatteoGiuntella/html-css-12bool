@@ -11,9 +11,8 @@
 
 [class*="col-"] {
     flex: 0 0 auto;
-    background-color: blue;
-    border: 1px solid white;
-    min-height: 50px;
+    border: 1px solid blue;
+    padding: 25px;
 }
 
 /* col flessibile */
