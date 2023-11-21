@@ -4,8 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* debug */
-    border: 1px solid black;
 }
 
 /* general */
@@ -46,7 +44,18 @@ a{
 .space-around{
     justify-content: space-around;
 }
-
+.padding{
+    height: 100px;
+}
+.top{
+    align-self: flex-start;
+}
+.middle{
+    align-self: center;
+}
+.bottom{
+    align-self: flex-end;
+}
 /* main */
 
 
